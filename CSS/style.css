@@ -9,7 +9,7 @@ body {
     margin: 15px;
 }
 #container {
-    background: #ede9cc;
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -102,4 +102,79 @@ ul#navegacao a:hover {
     background: #fdf6be;
     border-radius: 5px;
     font-weight: bold;
+}
+/*Área de conteúdos*/
+#area-principal {
+    float: left;
+    width: 50%;
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0;
+
+}
+#area-lateral {
+    float: right;
+    width: 50%;
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0;
+
+}
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+#footer {
+    clear: both;
+    padding: 16px;
+    background: #FFFFFF url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+    margin: auto;
+}
+/*Formatações de texto*/
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+p {
+    text-align: justify;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+/*Área de serviços*/
+#lista-servicos {
+    float: left;
+}
+#lista-servicos li {
+    float: left;
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+}
+#lista-servicos li a img {
+    float: left;
+    margin-right: 8px;
+}
+#lista-servicos li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
+}
+#lista-servicos h3 {
+    color: #7d7640;
+}
+#lista-servicos h3:hover {
+    text-decoration: underline;
+}
+#lista-servicos p {
+    color: #000000;
+    text-align: justify;
+}
+#lista-servicos li a p {
+    font-size: 0.8em;
+    color: #000000;
+}
+#lista-servicos li a h3 {
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(../imagens/ornamento.png) no-repeat right center;
 }
